@@ -1,0 +1,64 @@
+.orders-wrapper {
+  margin-left: 15%;
+  margin-top: 5%;
+.orders-container {
+  height: 580px;    
+  width: 80% !important;    
+  border: 1px solid #ECECEC;    
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+
+  .date-wrapper {
+    flex: 0 0 auto;
+    width: 35%;
+    border-right: 1px solid #ECECEC;
+    padding: 10px;
+    h3 {
+      text-align: center;
+      color: #6D6D6D;
+
+    }
+    ul {
+      margin-top: 20%;
+    }
+    li {
+      text-decoration: none;
+      list-style-type: none;
+      padding: 20px 0 20px 90px;
+      a {
+        color: #6D6D6D;
+      }
+    }
+  }
+  .menu-wrapper {
+    flex: 1 1 auto;
+    padding: 20px;
+  }
+}
+}
+.menus-container {
+  .main-meal {
+    display: flex;
+    flex-direction: column;
+    ul {
+      display: flex;
+    }
+    li {
+      margin-right: 25px;
+      border: 1px solid #ECECEC;   
+      list-style-type: none; 
+      height: 50px;
+      width: 30%;
+      .image {
+
+      }
+    }
+  }
+  .accomp-1 {
+
+  }
+  .accomp-2 {
+
+  }
+}
